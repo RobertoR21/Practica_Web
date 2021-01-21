@@ -1,0 +1,80 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    height: 5%;
+    width: 100%;
+    background-color: #112238;
+}
+
+header .logo
+{
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+header .logo img
+{
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+header .logo h1
+{
+    align-self: center;
+    color: white;
+}
+
+header .nav
+{
+    display: flex;
+}
+
+
+header .nav-bar
+{
+    display: flex;
+    align-self:center;
+    list-style: none;
+    color: white;
+}
+
+header .nav-bar .nav-bar-item
+{
+    font-size: 2rem;
+    padding: 0 2px;
+    color: white;
+}
+
+.nav-bar-item a::after
+{
+    content: "|";
+}
+
+.nav-bar-item a:hover
+{
+    color: black;
+}
+
+header .login
+{
+    display: flex;
+    align-items: center;
+}

@@ -13,6 +13,7 @@ html
 header
 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     height: 5%;
     width: 100%;
@@ -77,4 +78,27 @@ header .login
 {
     display: flex;
     align-items: center;
+    padding-right: 2rem;
+}
+
+header .login .login-item
+{
+    padding: 0 0.2rem;
+}
+
+header .login .login-item input
+{
+    width: 100%;
+    border-radius: 20rem;
+}
+
+header .login .login-item input:hover
+{
+    box-shadow: 0 1px 6px 0 #dfe1e5;
+}
+
+header .login button
+{
+    width: 8rem;
+    border-radius: 20rem;
 }
